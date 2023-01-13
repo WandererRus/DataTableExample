@@ -37,7 +37,7 @@ namespace AdoNetSample2
 
                     conn.Open();
 
-                    table = new DataTable();
+                     table = new DataTable();
                     reader = comm.ExecuteReader();
                     int line = 0;
 
